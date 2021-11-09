@@ -51,9 +51,9 @@ class Store {
 
   removeNote(id) {
     // Get all notes, remove the note with the given id, write the filtered notes
-    return this.getNotes()
-      // .then(notes => notes.filter(note => note.id !== )
-      // .then(updatedNotes => this.write(updatedNotes))
+  //   return this.getNotes()
+  //      .then(notes => notes.filter(note => note.id === id))
+  //      .then(updatedNotes => this.write(updatedNotes))
   }
 }
 
